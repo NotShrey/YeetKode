@@ -9,7 +9,7 @@ class Solution {
 
         int cnt = 0;
 
-        int EL1 = +1, EL2 = -1;
+        int EL1 = -1, EL2 = -1;
 
         while (i < n1 && j < n2) {
             if (nums1[i] < nums2[j]) {
